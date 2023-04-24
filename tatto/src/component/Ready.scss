@@ -1,0 +1,38 @@
+.order {
+    margin: 0 auto;
+    padding-top: 150px;
+    max-width: 500px;
+    max-height: 600px;
+    position: relative;
+    & img {
+        max-height: 500px;
+        max-width: 400px;
+    }
+}
+.title-ready {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    font-size: 80px;
+    color: #ff5c35;
+    font-family: "Condiment";
+}
+.contact-btn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 30%;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff5c35;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    transition-duration: 0.8s;
+    &:hover {
+        background-color: #fff;
+        color: #000;
+        transition-duration: 0.8s;
+        cursor: pointer;
+    }
+}

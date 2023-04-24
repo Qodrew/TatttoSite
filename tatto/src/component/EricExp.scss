@@ -1,0 +1,26 @@
+.expression {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    &__img {
+        & img {
+            width: 800px;
+            height: 600px;
+        }
+    }
+    &__descr {
+        display: inline-block;
+        margin: 150px 0;
+    }
+    &__title {
+        font-size: 44px;
+        color: #ff5c35;
+        font-family: "Condiment";
+    }
+    &__text {
+        font-size: 20px;
+        color: #8f8e8de4;
+        font-family: "Condiment";
+    }
+}

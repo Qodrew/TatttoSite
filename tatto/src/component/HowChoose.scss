@@ -1,0 +1,41 @@
+
+
+.take-shoose {
+    text-align: center;
+    color: #fff;
+    & img {
+        margin: 70px 0;
+        max-width: 50%;
+        max-height: 50%;
+    }
+    & p {
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 18px;
+    }
+    &__item {
+        padding: 0 25%;
+        height: 300px;
+        border-top: 1px solid #fff;
+        & h3 {
+            margin: 20px 0;
+            color: #ff5c35;
+            font-family: "Condiment";
+            font-size: 30px;
+        }
+        & h4 {
+            margin: 10px 0;
+            font-size: 25px;
+        }
+        & p {
+            font-family: "Raleway", sans-serif;
+            color: #7598b5;
+        }
+    }
+}
+.material-symbols-outlined::after {
+    display: block;
+    background-color: #fff;
+    height: 1px;
+    width: 500px;
+}

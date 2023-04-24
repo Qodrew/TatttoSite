@@ -1,0 +1,45 @@
+.header {
+    padding: 0 auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+    background-image: url(../../img/mainPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    &__name {
+        position: absolute;
+        top: 48%;
+        left: 49%;
+        font-family: "Condiment";
+        color: #fff;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    &__position {
+        position: absolute;
+        top: 65%;
+        left: 47%;
+        margin-top: 0;
+        padding-top: 0;
+        line-height: 10px;
+        font-family: "Condiment";
+        color: #fff;
+        font-size: 15px;
+    }
+    &__salon {
+        position: absolute;
+        top: 55%;
+        left: 45%;
+        margin: 0 auto;
+        font-family: "Condiment";
+        line-height: 52px;
+        color: #fff;
+        font-size: 55px;
+    }
+}

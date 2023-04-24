@@ -1,0 +1,111 @@
+.footer {
+    border-top: 1px solid #ff5c35;
+    margin-top: 50px;
+    padding: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    &__location {
+        text-align: left;
+        padding-left: 30px;
+    }
+    &__title {
+        margin-top: 150px;
+        font-family: "Condiment";
+        line-height: 30px;
+        color: #ff5c35;
+        font-size: 72px;
+    }
+    & h4 {
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 20px;
+    }
+    &__adress {
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 15px;
+    }
+    &__phone {
+        text-decoration: none;
+        display: block;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 15px;
+    }
+    &__mail {
+        text-decoration: none;
+        display: block;
+        margin-top: 10px;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 15px;
+    }
+    &__by {
+        margin-top: 50px;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 12px;
+    }
+    &__img {
+        padding-top: 40px;
+        & img {
+            max-width: 250px;
+            max-height: 470px;
+        }
+    }
+    &__social {
+        margin-top: 100px;
+        text-align: left;
+        & h4 {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-family: "Raleway", sans-serif;
+            color: #fff;
+            font-size: 35px;
+        }
+        & input {
+            background: #6a6a6a3e;
+            border: none;
+            outline: none;
+            border-top-left-radius: 20%;
+            border-bottom-left-radius: 20%;
+            height: 40px;
+            padding-left: 20px;
+            font-size: 20px;
+            color: #264b65;
+        }
+    }
+    &__sub {
+        height: 40px;
+        border: none;
+        background: #ff5c35;
+        color: #fff;
+        font-size: 20px;
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+        font-family: "Raleway", sans-serif;
+    }
+    &__web {
+    }
+}
+
+.twit {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.facebook {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.inst {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #fff;
+}

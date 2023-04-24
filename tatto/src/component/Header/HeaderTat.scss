@@ -1,0 +1,45 @@
+.headert {
+    padding: 0 auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+    background-image: url(../../img/mainPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    &__name {
+        position: absolute;
+        top: 48%;
+        left: 45.5%;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 48px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    &__desrc {
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        margin-top: 0;
+        padding-top: 0;
+        line-height: 10px;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 18px;
+    }
+    &__divider{
+        display: block;
+        background-color: #fff;
+        width: 159px;
+        height: 1px;
+
+        position: absolute;
+        top: 58%;
+        left: 45%;
+    }
+}

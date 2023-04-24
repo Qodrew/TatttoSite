@@ -1,0 +1,81 @@
+.title {
+    text-align: center;
+    font-size: 66px;
+    color: #ff5c35;
+    font-family: "Condiment";
+}
+
+.choose {
+    &__ul {
+        list-style: none;
+        text-align: center;
+    }
+    &__btn {
+        font-family: "Raleway", sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        display: inline-block;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover {
+            transition: 0.4s color;
+            color: #ff5c35;
+        }
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    &__item {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        & h4 {
+            opacity: 0;
+            position: absolute;
+            top: 30%;
+            left: 33%;
+            margin: 10px 0;
+            font-size: 28px;
+            font-family: "Port Lligat Slab", serif;
+            color: #fff;
+        }
+        & p {
+            opacity: 0;
+            position: absolute;
+            top: 40%;
+            left: 2%;
+            font-size: 18px;
+            font-family: "Port Lligat Slab", serif;
+            color: #fff;
+        }
+        &:hover {
+            & img {
+                transition: 0.8s opacity;
+                opacity: 0.09;
+            }
+            & h4 {
+                opacity: 1;
+                transition: 0.5s;
+                &:hover {
+                    color: #ff5c35;
+                    cursor: pointer;
+                }
+            }
+            & p {
+                opacity: 1;
+                transition: 0.3s;
+            }
+        }
+        & img {
+            height: 250px;
+            width: 100%;
+            opacity: 1;
+            transition: 0.7s;
+        }
+    }
+}

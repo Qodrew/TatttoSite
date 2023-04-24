@@ -1,0 +1,53 @@
+.headernav {
+    display: flex;
+    justify-content: space-between;
+
+    background: #000;
+    border-bottom: 1px solid #ff5c35;
+    &__logo {
+        display: inline-block;
+        max-width: 80px;
+        max-height: 80px;
+        margin-left: 80px;
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
+    &__nav {
+        margin-right: 200px;
+        color: #fff;
+        padding-top: 10px;
+    }
+    &__btn {
+        margin-left: 40px;
+        border-radius: 40%;
+        border: none;
+        background-color: #ff5c35;
+        color: #fff;
+        width: 78px;
+        height: 40px;
+        transition: 0.8s background-color;
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            transition-duration: 0.8s;
+            cursor: pointer;
+        }
+    }
+}
+
+.item {
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Condiment";
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 30px;
+    transition: 0.4s;
+    &:hover {
+        transition: 0.4s color;
+        color: #ff5c35;
+    }
+}
