@@ -2,6 +2,28 @@ import master1 from "../img/master1.jpg";
 import master3 from "../img/master2.jpg";
 import master2 from "../img/master3.jpg";
 import master4 from "../img/master4.jpg";
+import j0 from "../img/journal1.png";
+import j1 from "../img/journal2.png";
+import j2 from "../img/journal3.png";
+import j3 from "../img/journal4.png";
+import j4 from "../img/journal5.png";
+import j5 from "../img/journal6.png";
+import j6 from "../img/journal7.png";
+import j7 from "../img/journal8.jpg";
+import j8 from "../img/journal9.jpg";
+import j9 from "../img/journal10.jpg";
+
+import g1 from "../img/gallery/gallery1.png";
+import g2 from "../img/gallery/gallery2.jpg";
+import g3 from "../img/gallery/gallery3.jpg";
+import g4 from "../img/gallery/gallery4.jpg";
+import g5 from "../img/gallery/gallery5.jpg";
+import g6 from "../img/gallery/gallery6.jpg";
+import g7 from "../img/gallery/gallery7.jpg";
+import g8 from "../img/gallery/gallery8.jpg";
+import g9 from "../img/gallery/gallery9.jpg";
+import g10 from "../img/gallery/gallery10.jpg";
+import g11 from "../img/gallery/gallery11.jpg";
 
 const revievTitle = [
     "Best and most talented tattoo professional ever",
@@ -31,10 +53,18 @@ const quote = [
 ];
 
 const artistLib = [
-    { person: "Rob Frankwood", position: "Founder", img:"../../img/master1.jpg" },
-    { person: "Samanta Franklin", position: "Founder", img: "../../img/master2.jpg" },
+    {
+        person: "Rob Frankwood",
+        position: "Founder",
+        img: "../../img/master1.jpg",
+    },
+    {
+        person: "Samanta Franklin",
+        position: "Founder",
+        img: "../../img/master2.jpg",
+    },
     { person: "Mat Hobs", position: "Artist", img: "../../img/master3.jpg" },
-    { person: "Cindy Jones", position: "Artist", img:"../../img/master4.jpg" },
+    { person: "Cindy Jones", position: "Artist", img: "../../img/master4.jpg" },
 ];
 
 const aboutLib = [
@@ -52,4 +82,283 @@ const aboutLib = [
     },
 ];
 
-export { revievTitle, revievDescr, revievAuthor, aboutLib, quote, artistLib, master1, master2, master3, master4 };
+const journal0 = [
+    {
+        hesh: "Tattoo",
+        title: "Gregory Tetradis Greger joins the studio",
+        descr: "The Family Business is home to eight tattoo artists, all of whom represent very distinct...",
+        img: "../../img/journal1.png",
+    },
+    {
+        hesh: "Tattoo",
+        title: "H2Ocean’s nothing tattoo pain relieving soap with Lidocaine",
+        descr: "H2Ocean’s NOTHING soap with Lidocaine is formulated to effectively help tattoo artists clean and relieve...",
+        img: "../../img/journal2.png",
+    },
+    {
+        hesh: "Festivals, Tattoo",
+        title: "7 stunning mandala tattoos to admire",
+        descr: "In the far-off past, tattoos were something only sailors had, and the only body part...",
+        img: "../../img/journal3.png",
+    },
+    {
+        hesh: "Piercing",
+        title: "The surprising reason why piercings are so addictive",
+        descr: "The surprising reason why piercings are so addictive",
+        img: "../../img/journal4.png",
+    },
+];
+const journal1 = [
+    {
+        hesh: "Tattoo",
+        title: "The truth about tattoo shop minimums",
+        descr: "But what about when you get a body piercing or tattoo? Since body art services...",
+        img: "../../img/journal5.png",
+    },
+    {
+        hesh: "Tattoo, Urban",
+        title: "Tattoos could help boost your immune system",
+        descr: "Successful people ask better questions. But on Aristotle’s view, the lives of individual human beings...",
+        img: "../../img/journal6.png",
+    },
+    {
+        hesh: "Piercing",
+        title: "How to choose a body art supplier",
+        descr: "Taking a few precautions will help you get the best results from your new body...",
+        img: "../../img/journal7.png",
+    },
+    {
+        hesh: "Tattoo",
+        title: "UV tattoos that make you glow in the dark!",
+        descr: "UV tattoos that make you glow in the dark!",
+        img: "../../img/journal8.png",
+    },
+];
+const journal2 = [
+    {
+        hesh: "Festivals",
+        title: "Americana Tattoo",
+        descr: "In the far-off past, tattoos were something only sailors had, and the only body part...",
+        img: "../../img/journal9.png",
+    },
+    {
+        hesh: "Tattoo",
+        title: "In the hands of professionals",
+        descr: "In the hands of professionals",
+        img: "../../img/journal10.png",
+    },
+];
+
+const journal = [
+    {
+        hesh: "Tattoo",
+        title: "Gregory Tetradis Greger joins the studio",
+        descr: "The Family Business is home to eight tattoo artists, all of whom represent very distinct...",
+        img: "../../img/journal1.png",
+    },
+    {
+        hesh: "Tattoo",
+        title: "H2Ocean’s nothing tattoo pain relieving soap with Lidocaine",
+        descr: "H2Ocean’s NOTHING soap with Lidocaine is formulated to effectively help tattoo artists clean and relieve...",
+        img: "../../img/journal2.png",
+    },
+    {
+        hesh: "Festivals, Tattoo",
+        title: "7 stunning mandala tattoos to admire",
+        descr: "In the far-off past, tattoos were something only sailors had, and the only body part...",
+        img: "../../img/journal3.png",
+    },
+    {
+        hesh: "Piercing",
+        title: "The surprising reason why piercings are so addictive",
+        descr: "The surprising reason why piercings are so addictive",
+        img: "../../img/journal4.png",
+    },
+    {
+        hesh: "Tattoo",
+        title: "The truth about tattoo shop minimums",
+        descr: "But what about when you get a body piercing or tattoo? Since body art services...",
+        img: "../../img/journal5.png",
+    },
+    {
+        hesh: "Tattoo, Urban",
+        title: "Tattoos could help boost your immune system",
+        descr: "Successful people ask better questions. But on Aristotle’s view, the lives of individual human beings...",
+        img: "../../img/journal6.png",
+    },
+    {
+        hesh: "Piercing",
+        title: "How to choose a body art supplier",
+        descr: "Taking a few precautions will help you get the best results from your new body...",
+        img: "../../img/journal7.png",
+    },
+    {
+        hesh: "Tattoo",
+        title: "UV tattoos that make you glow in the dark!",
+        descr: "UV tattoos that make you glow in the dark!",
+        img: "../../img/journal8.png",
+    },
+    //------------
+    {
+        hesh: "Festivals",
+        title: "Americana Tattoo",
+        descr: "In the far-off past, tattoos were something only sailors had, and the only body part...",
+        img: "../../img/journal9.png",
+    },
+    {
+        hesh: "Tattoo",
+        title: "In the hands of professionals",
+        descr: "In the hands of professionals",
+        img: "../../img/journal10.png",
+    },
+];
+
+// ___________________gallery_______________________
+
+const galleryPostsOneToSix = [
+    {
+        title: "Tattoo on the back",
+        descr: "Tattoos are designs on the skin made with needles and colored ink...",
+        img: `${g1}`,
+    },
+    {
+        title: "4 incredible tattoos by Mike",
+        descr: "Tatttoos: play it smart with body art",
+        img: `${g2}`,
+    },
+    {
+        title: "10 unbelievable tattoos by Rob Walker",
+        descr: "Tatttoos: play it smart with body art",
+        img: `${g3}`,
+    },
+    {
+        title: "100 All-time greatest tattoos",
+        descr: "Tatttoos: play it smart with body art",
+        img: `${g4}`,
+    },
+    {
+        title: "Permanent makeup for lips",
+        descr: "Tattoos are designs on the skin made with needles and colored ink...",
+        img: `${g5}`,
+    },
+    {
+        title: "100 cool tattoo designs",
+        descr: "Tattoos are designs on the skin made with needles and colored ink...",
+        img: `${g6}`,
+    },
+];
+const galleryPostsSevenToTwelve = [
+    {
+        title: "100 Years of Beauty",
+        descr: "Functional tattoos are used primary for a purpose othe than aesthetics...",
+        img: `${g7}`,
+    },
+    {
+        title: "Japan tattoo - Horitsuki",
+        descr: "Functional tattoos are used primary for a purpose othe than aesthetics...",
+        img: `${g8}`,
+    },
+    {
+        title: "The most famous artists",
+        descr: "Many tattoo artists are also conventional artists...",
+        img: `${g9}`,
+    },
+    {
+        title: "Permanent makeup eyeliner",
+        descr: "Mirum est notare quam litteta gothica quam nunc",
+        img: `${g10}`,
+    },
+    {
+        title: "Los-Angeles' best tattoo studios",
+        descr: "Many tattoo artists are also conventional artists..",
+        img: `${g11}`,
+    },
+];
+
+const galleryPosts = [
+    {
+        title: "Tattoo on the back",
+        descr: "Tattoos are designs on the skin made with needles and colored ink...",
+        img: `${g1}`,
+    },
+    {
+        title: "4 incredible tattoos by Mike",
+        descr: "Tatttoos: play it smart with body art",
+        img: `${g2}`,
+    },
+    {
+        title: "10 unbelievable tattoos by Rob Walker",
+        descr: "Tatttoos: play it smart with body art",
+        img: `${g3}`,
+    },
+    {
+        title: "100 All-time greatest tattoos",
+        descr: "Tatttoos: play it smart with body art",
+        img: `${g4}`,
+    },
+    {
+        title: "Permanent makeup for lips",
+        descr: "Tattoos are designs on the skin made with needles and colored ink...",
+        img: `${g5}`,
+    },
+    {
+        title: "100 cool tattoo designs",
+        descr: "Tattoos are designs on the skin made with needles and colored ink...",
+        img: `${g6}`,
+    },
+    {
+        title: "100 Years of Beauty",
+        descr: "Functional tattoos are used primary for a purpose othe than aesthetics...",
+        img: `${g7}`,
+    },
+    {
+        title: "Japan tattoo - Horitsuki",
+        descr: "Functional tattoos are used primary for a purpose othe than aesthetics...",
+        img: `${g8}`,
+    },
+    {
+        title: "The most famous artists",
+        descr: "Many tattoo artists are also conventional artists...",
+        img: `${g9}`,
+    },
+    {
+        title: "Permanent makeup eyeliner",
+        descr: "Mirum est notare quam litteta gothica quam nunc",
+        img: `${g10}`,
+    },
+    {
+        title: "Los-Angeles' best tattoo studios",
+        descr: "Many tattoo artists are also conventional artists..",
+        img: `${g11}`,
+    },
+];
+
+export {
+    revievTitle,
+    revievDescr,
+    revievAuthor,
+    aboutLib,
+    quote,
+    artistLib,
+    master1,
+    master2,
+    master3,
+    master4,
+    journal,
+    j0,
+    j1,
+    j2,
+    j3,
+    j4,
+    j5,
+    j6,
+    j7,
+    j8,
+    j9,
+    journal0,
+    journal1,
+    journal2,
+    galleryPostsOneToSix,
+    galleryPostsSevenToTwelve,
+    galleryPosts,
+};

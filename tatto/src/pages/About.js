@@ -9,6 +9,10 @@ import { quote } from "../component/Library";
 import historySlide from "../img/historyAbout.jpg"
 import artistSlide from "../img/slideAbout2.png"
 import awardSlide from "../img/slideAbout3.png"
+import Festivals from "../component/About/Festivals";
+import ReievSlider from "../component/RevievSlider";
+import BtnBook from "../component/About/BtnBook";
+import FooterSite from "../component/FooterSite";
 import { master1, master2, master3, master4 } from "../component/Library";
 
 
@@ -24,6 +28,10 @@ const About = () => {
                 <Quote quote={quote[1]}/>
                 <ArtistCard master0={master1} master1={master2} master2={master3} master3={master4}/>
                 <Slide slide={awardSlide} title={"Awards!"}/>
+                <Festivals/>
+                <ReievSlider/>
+                <BtnBook/>
+                <FooterSite/>
             </>
         );
 }

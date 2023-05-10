@@ -1,0 +1,58 @@
+.gallery {
+    margin: 100px 0 50px;
+    &__items {
+        align-items: center;
+    }
+    &__item {
+        display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0;
+        width: 31%;
+        min-height: 200px;
+        overflow: hidden;
+        text-align: center;
+        transition: 1s;
+        margin: 1.166%;
+        border-radius: 15px;
+        & h4 {
+            opacity: 0;
+            margin: 60px 0 0 0 ;
+            font-size: 28px;
+            font-family: "Port Lligat Slab", serif;
+            color: #fff;
+        }
+        & p {
+            opacity: 0;
+            font-size: 18px;
+            font-family: "Port Lligat Slab", serif;
+            color: #fff;
+            padding: 0 30px;
+            cursor: default;
+        }
+        &:hover {
+            transition: .5s background;
+            // background: #000;
+            inset: 0;
+            opacity: 0.9;
+            & h4 {
+                opacity: 1;
+                transition: 0.5s;
+                &:hover {
+                    color: #ff5c35;
+                    cursor: pointer;
+                }
+            }
+            & p {
+                opacity: 1;
+                transition: 0.3s;
+            }
+        }
+        & img {
+            height: 250px;
+            width: 100%;
+            opacity: 1;
+            transition: 0.7s;
+        }
+    }
+}

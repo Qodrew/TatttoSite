@@ -9,29 +9,6 @@ const Book = () => {
         setActive(block);
     };
 
-    const booking = () => {
-        return (
-            <div className="booking">
-                <div className="book__booking">
-                    <input type="text" placeholder="Name" />
-                    <input type="email" placeholder="E-mail" />
-                    <input type="tel" placeholder="Phone" />
-                    <input type="text" placeholder="Tattoo" />
-                    <input
-                        type="date"
-                        className="inpDat"
-                        placeholder="Choose date"
-                    />
-                    <input type="time" placeholder="Choose time" />
-                </div>
-                <textarea
-                    name="input"
-                    placeholder="Describe the design, colors, size and placement"
-                ></textarea>
-                <button className="book__btn">Book an appointment</button>
-            </div>
-        );
-    };
     const price = () => {
         return (
             <div className="price">
@@ -93,9 +70,9 @@ const Book = () => {
                 <div className="map__item">
                     <iframe
                         title="Our map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1654.6318395891599!2d-118.37774723503509!3d33.960061599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b7247ae95e39%3A0x386e90c15ea6d67a!2zMTEyMCBXIE1hbmNoZXN0ZXIgQmx2ZCwgSW5nbGV3b29kLCBDQSA5MDMwMSwg0KHQqNCQ!5e0!3m2!1sru!2skg!4v1682063095906!5m2!1sru!2skg"
                         width="600"
                         height="450"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1654.6318395891599!2d-118.37774723503509!3d33.960061599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b7247ae95e39%3A0x386e90c15ea6d67a!2zMTEyMCBXIE1hbmNoZXN0ZXIgQmx2ZCwgSW5nbGV3b29kLCBDQSA5MDMwMSwg0KHQqNCQ!5e0!3m2!1sru!2skg!4v1682063095906!5m2!1sru!2skg"
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
@@ -153,4 +130,28 @@ const Book = () => {
     );
 };
 
-export default Book;
+const booking = () => {
+    return (
+        <div className="booking">
+            <div className="book__booking">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="E-mail" />
+                <input type="tel" placeholder="Phone" />
+                <input type="text" placeholder="Tattoo" />
+                <input
+                    type="date"
+                    className="inpDat"
+                    placeholder="Choose date"
+                />
+                <input type="time" placeholder="Choose time" />
+            </div>
+            <textarea
+                name="input"
+                placeholder="Describe the design, colors, size and placement"
+            ></textarea>
+            <button className="book__btn">Book an appointment</button>
+        </div>
+    );
+};
+
+export {Book, booking};

@@ -1,0 +1,107 @@
+.book {
+    & svg {
+        color: #ff5c35;
+        margin: 50px 20px 0 ;
+        width: 20px; 
+        height: 20px;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover {
+            transition: 0.4s color;
+            color: #7598b5;
+        }
+    }
+    &__btn {
+
+        font-size: 16px;
+        margin: 40px 0;
+        height: 35px;
+        background-color: #ff5c35;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        transition: 0.4s;
+        &:hover {
+            transition: 0.4s color background-color;
+            background-color: #fff;
+            color: #000;
+        }
+    }
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    &__box {
+        margin: 0 auto;
+        width: 80%;
+
+        border: 4px solid #ff5c35;
+        &-time {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+        & textarea {
+            background-color: #000;
+            width: 90%;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7598b5;
+            padding: 20px;
+            padding-left: 25px;
+            min-height: 150px;
+            resize: none;
+            overflow: hidden;
+            border: none;
+            &::placeholder {
+                color: #7598b5;
+            }
+            &:focus {
+                outline: none;
+                border: 1px solid #7598b5;
+                border-radius: 5px;
+            }
+        }
+    }
+    & h2 {
+        font-size: 30px;
+    }
+    &__days {
+        & p {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+    }
+    &__nav {
+        display: block;
+        margin: 50px 20px 40px;
+    }
+    &__booking {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        & input {
+            margin: 20px;
+            background-color: #000;
+            border: 1px solid #000;
+            height: 70%;
+            font-size: 18px;
+            color: #7598b5;
+            outline: none;
+            &:hover {
+                border: 1px solid #7598b5;
+                border-radius: 5px;
+            }
+            &::placeholder {
+                font-size: 20px;
+                color: #7598b5;
+            }
+        }
+    }
+}

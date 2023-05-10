@@ -1,0 +1,28 @@
+.btn-order {
+    margin: 100px 0 50px 0;
+    border-top: 1px solid #8f8e8de4;
+    text-align: center;
+    & span {
+        margin-top: 50px;
+        color: #8f8e8de4;
+        display: block;
+    }
+    &__btn {
+        margin-top: 50px;
+        cursor: pointer;
+        border: none;
+        width: 15%;
+        height: 40px;
+        background-color: #ff5c35;
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        color:#fff;
+        border-radius: 20px;
+        transition: 0.4s;
+        &:hover {
+            transition: 0.4s color background-color;
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}

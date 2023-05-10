@@ -1,6 +1,7 @@
 .headernav {
     display: flex;
     justify-content: space-between;
+    position: relative;
 
     background: #000;
     border-bottom: 1px solid #ff5c35;
@@ -21,12 +22,12 @@
     }
     &__btn {
         margin-left: 40px;
-        border-radius: 40%;
+        border-radius: 20px;
         border: none;
         background-color: #ff5c35;
         color: #fff;
-        width: 78px;
-        height: 40px;
+        width: 80px;
+        height: 38px;
         transition: 0.8s background-color;
         &:hover {
             background-color: #fff;
@@ -49,5 +50,43 @@
     &:hover {
         transition: 0.4s color;
         color: #ff5c35;
+    }
+    &-drop {
+        position: relative;
+    }
+}
+
+.dropdown {
+    display: inline-block;
+    cursor: pointer;
+    
+    &__menu {
+        border-radius: 15px;
+        display: block;
+        position: absolute;
+        font-family: "Condiment";
+        top: 53px;
+        right: 290px;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: center;
+        
+        &-link {
+            background-color: #000;
+            margin: 7px 0;
+            font-size: 18px;
+            text-decoration: none;
+            display: block;
+            color: #b7b7b7;
+            cursor: pointer;
+            transition: 0.4s;
+
+            &:hover {
+                transition: 0.4s color background-color;
+                color: #ff5c35;
+                background-color: #fff;
+            }
+        }
     }
 }

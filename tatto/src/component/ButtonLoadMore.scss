@@ -1,0 +1,20 @@
+.down-btn {
+    text-align: center;
+    & button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #ff5c35;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    transition: 0.4s;
+    &:hover {
+        transition: 0.4s color background-color;
+        background-color: #fff;
+        color: #000;
+    }
+}
+}

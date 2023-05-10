@@ -10,6 +10,10 @@ const Carusel = ({children}) => {
 
     const [offset, setOffset] = useState(0);
 
+    const [style, setStyle] = useState({
+        transform: "translateX(`${offset}px`)"
+      });
+
     useEffect(() => {
         setPages(
             Children.map(children, (child) => {
@@ -39,7 +43,9 @@ const Carusel = ({children}) => {
             return Math.max(newOffset, maxOffset);
         });
     };
-
+    useEffect(() => {
+        setStyle({ transform: `translateX(${offset}px)` });
+      }, [offset]);
     return (
         <div className="main-container">
             {/* <FaChevronLeft className="arrow" onClick={handleLeftArrowClick} /> */}
@@ -61,7 +67,7 @@ const Carusel = ({children}) => {
             <div className="window">
                 <div
                     className="all-pages-container"
-                    style={{ transform: `translateX(${offset})` }}
+                    style={style}
                 >
                     {pages}
                 </div>
